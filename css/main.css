@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   display: flex;
   font-family: "Overpass" Bold;
+  background-image: linear-gradient();
 }
 
 *, *::before, *::after {
