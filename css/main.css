@@ -1,18 +1,33 @@
 html {
   box-sizing: border-box;
-  display: flex;
-  font-family: "Overpass" Bold;
-  background-image: linear-gradient();
+  font-family: "Overpass", Bold;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-li {
-  list-style-type: none;
+body {
+margin: 1.5rem;
+line-height: 1.5;
 }
 
 .icon {
-  fill: #ff9500;
+position: relative;
+height: 8rem;
+width: 8rem;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  border: .2rem solid rgba(255, 255, 255, .7);
+  padding: 6vmin;
+  text-decoration: none;
+  color: #fff;
 }
