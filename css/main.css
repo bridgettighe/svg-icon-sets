@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Overpass" Bold;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.icon {
+  fill: #ff9500;
+}
