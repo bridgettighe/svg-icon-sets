@@ -13,8 +13,8 @@ html {
 }
 
 body {
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .icon {
@@ -24,17 +24,17 @@ margin: 0;
 .icon svg {
   height: 8rem;
   width: 8rem;
-display: block;
+  display: block;
   margin: auto;
 }
 
 h1 {
-text-align: left;
+  text-align: left;
 }
 
 h3 {
   font-size: 1.125rem;
-text-align: left;
+  text-align: left;
   font-weight: lighter;
 }
 
@@ -65,49 +65,49 @@ a:hover {
   }
 
   body {
-    pading: 2rem;
+    padding: 2rem;
     margin: 1rem 0;
   }
 
-section {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-justify-content: space-between;
-gap: 2.1rem;
-}
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 2.1rem;
+  }
 
-main {
-  margin-top: 1.5rem;
-}
+  main {
+    margin-top: 1.5rem;
+  }
 
-a {
-  padding: 1rem;
-  margin: auto;
-  font-size: 1.125rem;
-  text-align: left;
-}
+  a {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.125rem;
+    text-align: left;
+  }
 
-h3 {
-font-size: 1rem;
-}
+  h3 {
+    font-size: 1rem;
+  }
 
-@media only screen and (min-width: 60em) {
+  @media only screen and (min-width: 60em) {
 
-body {
-  margin: 1.5rem;
-  padding: 1.5rem;
-}
+    body {
+      margin: 1.5rem;
+      padding: 1.5rem;
+    }
 
-section {
-  margin-bottom: 6vmin;
-}
+    section {
+      margin-bottom: 6vmin;
+    }
 
-h1 {
-  padding: 2rem;
-  display: flex;
-}
+    h1 {
+      padding: 2rem;
+      display: flex;
+    }
 
-h3 {
-  padding: 1rem 1.5rem;
-}
-}
+    h3 {
+      padding: 1rem 1.5rem;
+    }
+  }
