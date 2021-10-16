@@ -93,4 +93,21 @@ font-size: 1rem;
 
 @media only screen and (min-width: 60em) {
 
+body {
+  margin: 1.5rem;
+  padding: 1.5rem;
+}
+
+section {
+  margin-bottom: 6vmin;
+}
+
+h1 {
+  padding: 2rem;
+  display: flex;
+}
+
+h3 {
+  padding: 1rem 1.5rem;
+}
 }
