@@ -1,14 +1,16 @@
 html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: Overpass, Bold;
+  font-family: Overpass, sans-serif;
   text-size-adjust: 100%;
   background-image: linear-gradient(#ff9500, #ff5e3a);
   color: #fff;
   text-align: center;
 }
 
-*,*::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -91,23 +93,26 @@ a:hover {
     font-size: 1rem;
   }
 
-  @media only screen and (min-width: 60em) {
+}
 
-    body {
-      margin: 1.5rem;
-      padding: 1.5rem;
-    }
+@media only screen and (min-width: 60em) {
 
-    section {
-      margin-bottom: 6vmin;
-    }
-
-    h1 {
-      padding: 2rem;
-      display: flex;
-    }
-
-    h3 {
-      padding: 1rem 1.5rem;
-    }
+  body {
+    margin: 1.5rem;
+    padding: 1.5rem;
   }
+
+  section {
+    margin-bottom: 6vmin;
+  }
+
+  h1 {
+    padding: 2rem;
+    display: flex;
+  }
+
+  h3 {
+    padding: 1rem 1.5rem;
+  }
+
+}
